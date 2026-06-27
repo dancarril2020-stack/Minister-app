@@ -1,4 +1,5 @@
 **Agent Workflow & Documentation Rules:**
+FULL PROJECT IN ENGLISH
 
 1. **Study First:** Always start new sessions or major tasks by deeply studying `PROJECT.md` to understand the project's purpose, stack, architecture, and current state. Do not proceed without this context.
 

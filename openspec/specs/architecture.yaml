@@ -1,0 +1,28 @@
+name: System Architecture
+description: Defines the high-level architecture and boundaries for the Ministering Web App
+version: 1.0.0
+components:
+  frontend:
+    type: pwa
+    stack: React, Vite, TypeScript, Tailwind CSS
+    responsibilities:
+      - Present UI and dashboards
+      - Offline capabilities (PWA)
+      - Map rendering (Leaflet.js)
+  backend:
+    type: serverless_api
+    stack: Azure Functions, Node.js
+    responsibilities:
+      - Authentication and Authorization (JWT)
+      - Business logic and CRUD operations
+      - Interfacing with third-party APIs (Gemini)
+  database:
+    type: document_db
+    stack: Azure Cosmos DB (MongoDB API)
+    responsibilities:
+      - Persist application data
+  storage:
+    type: blob_storage
+    stack: Azure Blob Storage
+    responsibilities:
+      - Store user and family photographs

@@ -1,0 +1,24 @@
+name: UI Layout Base
+description: Defines the standard layout structure for the PWA application
+version: 1.0.0
+layout:
+  mobile_first: true
+  components:
+    - name: TopNavigationBar
+      description: Contains context title, back button (when applicable), and user profile icon.
+      position: top
+      fixed: true
+    - name: MainContentArea
+      description: The primary scrollable area for rendering views (Dashboard, Map, Directory).
+      position: middle
+      padding: p-4
+    - name: BottomNavigationBar
+      description: Primary navigation for the PWA containing links to Dashboard, Formation, Map, and Menu.
+      position: bottom
+      fixed: true
+      style: glassmorphism
+  themes:
+    dark_mode: supported
+    colors:
+      primary: Tailwind Blue-600
+      secondary: Tailwind Violet-500
