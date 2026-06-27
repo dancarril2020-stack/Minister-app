@@ -1,17 +1,3 @@
-1. All code comments in englihs. Be specific, objective, detailed, and short.
-
-2. All code must be clean, modern, follow best practices, well-structured and easy to read and understand.
-
-3. All code must be well-documented and easy to understand.
-
-4. Always ask for approval before creating/modifying/deleting a file, unless explicitly stated otherwise.
-
-5. Always ask for approval before running a task, unless explicitly stated otherwise.
-
-6. In all responses, use the proper tone, language and clarity. Be sepecific, objective, detailed, and concise.
-
-7. Study the project in PROJECT.md when starting the sesion and for new decisions, choices, changes etc.
-
 **Agent Workflow & Documentation Rules:**
 
 1. **Study First:** Always start new sessions or major tasks by deeply studying `PROJECT.md` to understand the project's purpose, stack, architecture, and current state. Do not proceed without this context.
@@ -34,3 +20,10 @@ Always ask for approval before creating/modifying/deleting a file, unless explic
 Always ask for approval before running a task, unless explicitly stated otherwise.
 
 In all responses, use the proper tone, language and clarity. Be sepecific, objective, detailed, and concise.
+
+**Commits**
+Always use concise, clear, and descriptive commit messages in English.
+
+
+
+
