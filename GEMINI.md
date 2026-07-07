@@ -25,6 +25,14 @@ In all responses, use the proper tone, language and clarity. Be sepecific, objec
 **Commits**
 Always use concise, clear, and descriptive commit messages in English.
 
+Commits should be separated by files with new lines and each commit should have a brief description of the changes made in that file. If multiple files share the same type of changes, they should be grouped together.
+
+**Example:**
+
+file1: description of changes
+file2: description of changes
+file3: description of changes
+
 
 
 
