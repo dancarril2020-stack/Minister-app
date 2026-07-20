@@ -77,13 +77,13 @@ A continuación se presentan los mockups oficiales de la aplicación (enfoque Mo
 
 | Pantalla | Descripción e Imagen |
 |----------|----------------------|
-| **01 Login** | Flujo de entrada de los gestores.<br>![01 Login](./diseños/png/01%20_%20Login.png) |
-| **02 Layout Base** | Estructura general de navegación de la App.<br>![02 Layout Base](./diseños/png/02%20_%20Layout%20base.png) |
-| **03 Dashboard** | Pantalla principal "Resumen General" con métricas.<br>![03 Dashboard](./diseños/png/03%20_%20Dashboard.png) |
-| **04 Formación** | Organigrama visual interactivo de los compañeros.<br>![04 Formación](./diseños/png/04%20_%20Formaci_n.png) |
-| **05 Detalle Checklist** | Vista profunda para verificar atenciones e hitos.<br>![05 Detalle Checklist](./diseños/png/05%20_%20Detalle%20_%20Checklist.png) |
-| **06 Gestión CRUD** | Panel general de Directorio y Tableros.<br>![06 Gestión CRUD](./diseños/png/06%20_%20Gesti_n%20_CRUD_.png) |
-| **07 Formulario** | Inserción de nuevas familias, control de miembros y fotos.<br>![07 Formulario](./diseños/png/07%20_%20Formulario.png) |
-| **08 Mapa y Zonas** | Visualización interactiva Leaflet + OpenStreetMap.<br>![08 Mapa y Zonas](./diseños/png/08%20_%20Mapa%20y%20zonas.png) |
-| **09 Analítica** | Gráficos y reportes de estado del servicio.<br>![09 Analítica](./diseños/png/09%20_%20Anal_tica.png) |
-| **10 Asistente IA** | Chat de sugerencias y soporte basado en Gemini API.<br>![10 Asistente IA](./diseños/png/10%20_%20Asistente%20IA.png) |
+| **01 Login** | Flujo de entrada de los gestores.<br>![01 Login](./diseños/png/atualizado/01%20_%20Login%20(1).png) |
+| **02 Layout Base** | Estructura general de navegación de la App.<br>![02 Layout Base](./diseños/png/atualizado/02%20_%20Layout%20base.png) |
+| **03 Dashboard** | Pantalla principal "Resumen General" con métricas.<br>![03 Dashboard](./diseños/png/atualizado/03%20_%20Dashboard.png) |
+| **04 Formación** | Organigrama visual interactivo de los compañeros.<br>![04 Formación](./diseños/png/atualizado/04%20_%20Formacion.png) |
+| **05 Detalle Checklist** | Vista profunda para verificar atenciones e hitos.<br>![05 Detalle Checklist](./diseños/png/atualizado/05%20_%20Detalle%20_%20Checklist.png) |
+| **06 Gestión CRUD** | Panel general de Directorio y Tableros.<br>![06 Gestión CRUD](./diseños/png/atualizado/06%20_%20Gesti_n%20_CRUD_.png) |
+| **07 Formulario** | Inserción de nuevas familias, control de miembros y fotos.<br>![07 Formulario](./diseños/png/atualizado/07%20_%20Formulario.png) |
+| **08 Mapa y Zonas** | Visualización interactiva Leaflet + OpenStreetMap.<br>![08 Mapa y Zonas](./diseños/png/atualizado/08%20_%20Mapa%20y%20zonas.png) |
+| **09 Analítica** | Gráficos y reportes de estado del servicio.<br>![09 Analítica](./diseños/png/atualizado/09%20_%20Anal_tica.png) |
+| **10 Asistente IA** | Chat de sugerencias y soporte basado en Gemini API.<br>![10 Asistente IA](./diseños/png/atualizado/10%20_%20Asistente%20IA%20(1).png) |
