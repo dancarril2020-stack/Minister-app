@@ -18,7 +18,8 @@ layout:
       fixed: true
       style: glassmorphism
   themes:
-    dark_mode: supported
+    dark_mode: unsupported
     colors:
-      primary: Tailwind Blue-600
-      secondary: Tailwind Violet-500
+      primary: Navy (#002B49)
+      accent: Maroon (#8B1C4B)
+      background: Beige (#F3F2EB)
