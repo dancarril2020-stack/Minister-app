@@ -20,7 +20,7 @@ export function UrgentAttentionList({ attentions }: UrgentAttentionListProps) {
         {attentions.map((item) => (
           <div key={item.id} className="bg-white border border-[#E5E5E0] rounded-2xl shadow-sm p-4 flex items-start gap-3 cursor-pointer hover:border-[#8B1C4B]/40 hover:shadow transition-all">
             <div className={`p-2.5 rounded-full shrink-0 ${
-              item.severity === 'high' ? 'bg-[#F8E9F0] text-[#8B1C4B]' : 'bg-[#EAE9E0] text-[#002B49]'
+              item.severity === 'high' || item.severity === 'pending' ? 'bg-[#F8E9F0] text-[#8B1C4B]' : 'bg-[#EAE9E0] text-[#002B49]'
             }`}>
               <AlertCircle size={20} />
             </div>
@@ -29,7 +29,7 @@ export function UrgentAttentionList({ attentions }: UrgentAttentionListProps) {
               <div className="flex justify-between items-start gap-2">
                 <h4 className="font-serif font-bold text-[#002B49] text-base truncate">{item.familyName}</h4>
                 <span className={`text-[10px] uppercase font-bold px-2.5 py-0.5 rounded-full shrink-0 ${
-                  item.severity === 'high' ? 'bg-[#F8E9F0] text-[#8B1C4B]' : 'bg-[#EAE9E0] text-[#002B49]'
+                  item.severity === 'high' || item.severity === 'pending' ? 'bg-[#F8E9F0] text-[#8B1C4B]' : 'bg-[#EAE9E0] text-[#002B49]'
                 }`}>
                   {item.severity}
                 </span>
