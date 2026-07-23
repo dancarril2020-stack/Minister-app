@@ -23,6 +23,7 @@ For the complete development backlog, architecture diagrams, and design mockups,
 
 ```text
 ├── .agent/            # Agent configurations and workflows
+├── frontend/          # React (Vite) Frontend Web App
 ├── diseños/           # Screen mockups (HTML and PNG)
 ├── openspec/          # System specifications (OpenSpec)
 ├── PROJECT.md         # Architecture, backlog, and design document
@@ -50,7 +51,11 @@ cd Minister-app
 ```
 
 ### 2. Frontend Configuration
-*(Steps to be detailed once the frontend structure is initialized)*
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ### 3. Backend Configuration (Azure Functions)
 *(Steps to be detailed once the Azure Functions structure is initialized)*
@@ -60,4 +65,7 @@ cd Minister-app
 ## 🧪 Testing
 
 The project uses **Vitest** and **React Testing Library** for unit and component testing.
-*(Execution commands to be detailed after project initialization)*
+```bash
+cd frontend
+npm run test
+```

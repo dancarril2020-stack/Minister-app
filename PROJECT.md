@@ -44,11 +44,11 @@ El sistema se divide en cuatro capas principales: una capa de Frontend alojada e
 
 ## 5. Backlog y Fases de Desarrollo (Agile)
 
-### Epic 1: Pantalla Principal y Dashboards
-- **Pantalla "Resumen General":** Tarjetas de métricas, alertas de visitas pendientes y sección de atenciones urgentes.
-- **Tablero de Compañerismos:** Listado de compañeros con progreso (%) y filtros visuales por zonas.
-- **Detalle de Compañerismo:** Checklist interactivo y notas.
-- **Vista de Formación:** Organigrama interactivo visual (tipo alineación).
+### Epic 1: Pantalla Principal y Dashboards (Completado)
+- **Pantalla "Resumen General":** Tarjetas de métricas, alertas de visitas pendientes y sección de atenciones urgentes. (Implementado)
+- **Tablero de Compañerismos:** Listado de compañeros con progreso (%) y filtros visuales por zonas. (Implementado)
+- **Detalle de Compañerismo:** Checklist interactivo y notas. (Implementado)
+- **Vista de Formación:** Organigrama interactivo visual (tipo alineación). (Implementado)
 
 ### Epic 2: Gestión de Datos (CRUD y Azure API)
 - **Desarrollo API:** Endpoints en Azure Functions, integración con Cosmos DB y Blob Storage.
