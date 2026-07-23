@@ -13,7 +13,7 @@ export interface UrgentAttention {
   familyName: string;
   reason: string;
   dateFlagged: string;
-  severity: 'high' | 'medium';
+  severity: 'high' | 'medium' | 'pending';
 }
 
 export const mockMetrics: Metric[] = [
@@ -39,5 +39,13 @@ export const mockUrgentAttentions: UrgentAttention[] = [
     reason: 'Food need',
     dateFlagged: '2026-07-07T08:30:00Z',
     severity: 'medium'
+  },
+  {
+    id: 'a3',
+    familyId: 'f110',
+    familyName: 'Martinez Family',
+    reason: 'Pending: not visited yet',
+    dateFlagged: '2026-07-23T08:00:00Z',
+    severity: 'pending'
   }
 ];
