@@ -33,6 +33,11 @@ file1: description of changes
 file2: description of changes
 file3: description of changes
 
+**Branches**
+for all new features or changes in the project, create a new branch from `main` branch with the following format: `epicX/feature-name`. 
 
+for all updates or changes in the same feature, update the same branch.
+
+for all fixes related to a feature, create a new branch from `epicX/feature-name` branch with the following format: `epicX/feature-name-fix`. 
 
 
