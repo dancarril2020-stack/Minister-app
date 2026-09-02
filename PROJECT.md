@@ -44,30 +44,30 @@ El sistema se divide en cuatro capas principales: una capa de Frontend alojada e
 
 ## 5. Backlog y Fases de Desarrollo (Agile)
 
-### Epic 1: Pantalla Principal y Dashboards (Completado)
-- **Pantalla "Resumen General":** Tarjetas de métricas, alertas de visitas pendientes y sección de atenciones urgentes. (Implementado)
-- **Tablero de Compañerismos:** Listado de compañeros con progreso (%) y filtros visuales por zonas. (Implementado)
-- **Detalle de Compañerismo:** Checklist interactivo y notas. (Implementado)
-- **Vista de Formación:** Organigrama interactivo visual (tipo alineación). (Implementado)
+### Hecho (Done)
+- **[Epic 0]** Diseño de las pantallas
+- **[Epic 0]** Diseño del diagrama
 
-### Epic 2: Gestión de Datos (CRUD y Azure API)
-- **Desarrollo API:** Endpoints en Azure Functions, integración con Cosmos DB y Blob Storage.
-- **Gestión de Familias y Usuarios:** Creación/edición con subida de fotografía y cuantificador de miembros familiares.
-- **Directorio General:** Listado organizado y con filtros dinámicos.
+### En proceso (In Progress)
+- Configurar cuentas y stack
 
-### Epic 3: Autenticación Propia
-- **Sistema de Login:** Protegido con JWT.
-- **Recuperación:** Flujo para restablecer contraseñas de forma segura.
+### Backlog
+- **[Epic 1]** Pantalla "Resumen General" (NUEVO HOME) - dashboard
+- **[Epic 1]** Tablero de Compañerismos (Lista)
+- **[Epic 1]** Vista de Detalle del Compañerismo
+- **[Epic 1]** Vista de Formación
+- **[Epic 2]** Desarrollo API (Azure Functions + Cosmos DB + Blob Storage)
+- **[Epic 2]** Panel y Formulario de Creación de Usuarios/Familias
+- **[Epic 3]** Sistema Login (JWT y Bcrypt)
+- **[Epic 3]** [NUEVO] Flujo de Recuperación de Contraseña
+- **[Epic 4]** Mapa interactivo con División de Zonas *(Nota: Ya existe un prototipo funcional en `C:/Users/dan-b/Documents/igreja/quoum/cuadro_ministracion/index.html` que incluye Leaflet, Geoman y drag-and-drop. Se integrará y refactorizará a React/Tailwind en esta fase).*
+- **[Epic 4]** Asignación de Coordenadas (Manual y Mapa)
+- **[Epic 4]** Panel de Analítica Global
+- **[Epic 5]** Configurar Vitest y pruebas unitarias
+- **[Epic 6]** Sugerencias de Asignación con IA (Gemini)
+- **PRUEBAS FINALES**
+- **PRODUCCION**
 
-### Epic 4: Geolocalización y Analíticas (Fase 1.5)
-- **Mapa interactivo:** División territorial por zonas de colores, ubicación de familias y botón de centrado.
-- **Panel de Analítica Global:** Métricas avanzadas e informes.
-
-### Epic 5: Testing y QA
-- **Pruebas:** Cobertura de tests unitarios utilizando Vitest.
-
-### Epic 6: Asistente de IA (Fase 2)
-- **Sugerencias y Automatizaciones:** Integración con Google Gemini para sugerir compañeros, rutas o atenciones urgentes.
 
 ---
 

@@ -22,3 +22,4 @@
 
 - [x] 4.1 Build the interactive visual tree component for the formation structure
 - [x] 4.2 Assemble the `FormationView` page
+- [ ] 4.3 Fix dashboard metric card data. The current 4 metric cards shows: 1- Families visited, 2- Pending attentions, 3- Active partnerships, 4- spiritual check-ins. But it was suppose to show: 1- Quantity of active partnerships, 2- Quantity of families asigned to be visited, 3- Percentage of families that have not been visited yet, 4- Zones. Check 02_dashboard.png file for reference.
