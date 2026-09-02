@@ -19,11 +19,15 @@ export function UrgentAttentionList({ attentions }: UrgentAttentionListProps) {
       <div className="flex flex-col gap-3">
         {attentions.map((item) => (
           <div key={item.id} className="bg-white border border-[#E5E5E0] rounded-2xl shadow-sm p-4 flex items-start gap-3 cursor-pointer hover:border-[#8B1C4B]/40 hover:shadow transition-all">
-            <div className={`p-2.5 rounded-full shrink-0 ${
-              item.severity === 'high' || item.severity === 'pending' ? 'bg-[#F8E9F0] text-[#8B1C4B]' : 'bg-[#EAE9E0] text-[#002B49]'
-            }`}>
-              <AlertCircle size={20} />
-            </div>
+            {item.avatarUrl ? (
+              <img src={item.avatarUrl} alt={item.familyName} className="w-10 h-10 rounded-full shrink-0 object-cover" />
+            ) : (
+              <div className={`w-10 h-10 rounded-full shrink-0 flex items-center justify-center font-bold text-sm tracking-wide ${
+                item.severity === 'high' || item.severity === 'pending' ? 'bg-[#F8E9F0] text-[#8B1C4B]' : 'bg-[#EAE9E0] text-[#002B49]'
+              }`}>
+                {item.familyName.split(' ').map(n => n[0]).slice(0, 2).join('').toUpperCase()}
+              </div>
+            )}
             
             <div className="flex-1 min-w-0">
               <div className="flex justify-between items-start gap-2">
