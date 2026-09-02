@@ -9,11 +9,11 @@ export function BaseLayout() {
   const getTitle = () => {
     if (location.pathname.startsWith('/formation')) return 'Formation';
     if (location.pathname.startsWith('/map')) return 'Zone Map';
-    if (location.pathname.startsWith('/menu')) return 'Management';
+    if (location.pathname.startsWith('/menu')) return '';
     if (location.pathname.startsWith('/analytics')) return 'Analytics';
     if (location.pathname.startsWith('/ai')) return 'AI Assistant';
     if (location.pathname.startsWith('/partnership/')) return 'Partnership Detail';
-    return 'Dashboard';
+    return '';
   };
 
   const showBackButton = location.pathname.startsWith('/partnership/');

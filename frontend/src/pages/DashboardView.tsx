@@ -4,7 +4,7 @@ import { UrgentAttentionList } from '../components/UrgentAttentionList';
 
 export function DashboardView() {
   return (
-    <div className="animate-in fade-in duration-300">
+    <div className="animate-in fade-in duration-300 pb-12">
       {/* Header Section */}
       <div className="mb-5">
         <p className="text-xs font-semibold text-[#595959] tracking-wider uppercase">General Summary</p>
