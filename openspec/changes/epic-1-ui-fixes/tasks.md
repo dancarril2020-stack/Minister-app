@@ -6,11 +6,11 @@
 - [x] 1.5 Increase the bottom padding/margin (pb-24) on the Dashboard container/list to prevent the floating menu from hiding the last card.
 
 ## 2. Partnership List (Tablero de Compañerismos) Fixes
-- [ ] 2.1 Update partnership mock data to include companion avatars/initials and verify the object structure.
-- [ ] 2.2 Update PartnershipList view to render the overlapping avatars and remove the word "Management" from the header. Verify visually.
-- [ ] 2.3 Add Tailwind color mapping to the Zone tags (e.g., bg-blue-100 for Norte, bg-green-100 for Sur) and verify color rendering.
-- [ ] 2.4 Add the missing "Formación" navigation button alongside the existing floating action elements and verify it routes correctly.
-- [ ] 2.5 Increase the bottom padding/margin (pb-24) on the list container to prevent the floating menu from hiding the last card. Verify scroll bounds.
+- [x] 2.1 Update partnership mock data to include companion avatars/initials and verify the object structure.
+- [x] 2.2 Update PartnershipList view to render the overlapping avatars and remove the word "Management" from the header. Verify visually.
+- [x] 2.3 Add Tailwind color mapping to the Zone tags (e.g., bg-blue-100 for Norte, bg-green-100 for Sur) and verify color rendering.
+- [x] 2.4 Add the missing "Formación" navigation button alongside the existing floating action elements and verify it routes correctly.
+- [x] 2.5 Increase the bottom padding/margin (pb-24) on the list container to prevent the floating menu from hiding the last card. Verify scroll bounds.
 
 ## 3. Partnership Detail Checklist Fixes
 - [ ] 3.1 Update the mock data checklist array for families to use the specific 4 boolean items (Lectura de Escrituras, Oración, Noche de Hogar, Asistencia al Templo).

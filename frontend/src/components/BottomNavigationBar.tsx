@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import { LayoutGrid, Users, Map as MapIcon, PieChart, Sparkles } from 'lucide-react';
+import { LayoutGrid, Users, Map as MapIcon, PieChart, Sparkles, Network } from 'lucide-react';
 
 export function BottomNavigationBar() {
   const navItems = [
     { name: 'Dashboard', path: '/', icon: LayoutGrid },
-    { name: 'Management', path: '/menu', icon: Users },
+    { name: 'Compañerismos', path: '/menu', icon: Users },
     { name: 'Map', path: '/map', icon: MapIcon },
     { name: 'Analytics', path: '/analytics', icon: PieChart },
     { name: 'AI', path: '/ai', icon: Sparkles },

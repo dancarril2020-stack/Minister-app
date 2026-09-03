@@ -32,3 +32,13 @@
     @apply px-6 py-2 rounded-xl font-medium text-white bg-[#8B1C4B] shadow-md hover:bg-[#72153d] hover:scale-[1.02] transition-all duration-200;
   }
 }
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
