@@ -4,9 +4,14 @@ export interface ChecklistItem {
   completed: boolean;
 }
 
+export interface Companion {
+  name: string;
+  avatarUrl?: string;
+}
+
 export interface Partnership {
   id: string;
-  companions: string[];
+  companions: Companion[];
   assignedFamilies: string[];
   zone: string;
   progress: number;
@@ -17,9 +22,12 @@ export interface Partnership {
 export const mockPartnerships: Partnership[] = [
   {
     id: 'p1',
-    companions: ['John Doe', 'Peter Smith'],
+    companions: [
+      { name: 'John Doe' },
+      { name: 'Peter Smith' }
+    ],
     assignedFamilies: ['Gonzalez Family', 'Perez Family'],
-    zone: 'North',
+    zone: 'Zona Norte',
     progress: 50,
     notes: 'Need to focus on the Gonzalez family this month.',
     checklist: [
@@ -29,9 +37,12 @@ export const mockPartnerships: Partnership[] = [
   },
   {
     id: 'p2',
-    companions: ['Alan Walker', 'Steve Brown'],
+    companions: [
+      { name: 'Alan Walker' },
+      { name: 'Steve Brown' }
+    ],
     assignedFamilies: ['Martinez Family'],
-    zone: 'South',
+    zone: 'Zona Sur',
     progress: 100,
     notes: 'All good.',
     checklist: [
@@ -40,9 +51,12 @@ export const mockPartnerships: Partnership[] = [
   },
   {
     id: 'p3',
-    companions: ['David Lee', 'James Wilson'],
+    companions: [
+      { name: 'David Lee' },
+      { name: 'James Wilson' }
+    ],
     assignedFamilies: ['Davis Family', 'Miller Family'],
-    zone: 'North',
+    zone: 'Zona Este',
     progress: 0,
     notes: '',
     checklist: [
