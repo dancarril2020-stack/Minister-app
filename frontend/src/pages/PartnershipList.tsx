@@ -23,7 +23,7 @@ export function PartnershipList() {
     const matchesZone = filterZone === 'All' || p.zone === filterZone;
     const matchesSearch = searchQuery === '' || 
       p.companions.some(c => c.name.toLowerCase().includes(searchQuery.toLowerCase())) ||
-      p.assignedFamilies.some(f => f.toLowerCase().includes(searchQuery.toLowerCase()));
+      p.assignedFamilies.some(f => f.name.toLowerCase().includes(searchQuery.toLowerCase()));
     return matchesZone && matchesSearch;
   });
 
@@ -103,7 +103,7 @@ export function PartnershipList() {
               </div>
               
               <div className="flex items-center justify-between text-xs text-[#595959] mb-3">
-                <span>Assigned: <strong className="text-[#002B49] font-medium">{p.assignedFamilies.join(', ')}</strong></span>
+                <span>Assigned: <strong className="text-[#002B49] font-medium">{p.assignedFamilies.map(f => f.name).join(', ')}</strong></span>
                 <span className={`px-2 py-0.5 rounded-full font-bold border ${getZoneColor(p.zone)} text-[10px] uppercase tracking-wide`}>
                   {p.zone}
                 </span>
