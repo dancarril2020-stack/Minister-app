@@ -22,6 +22,10 @@ Always ask for approval before running a task, unless explicitly stated otherwis
 
 In all responses, use the proper tone, language and clarity. Be sepecific, objective, detailed, and concise.
 
+All files should start with comments explaining the purpose of the file.
+
+All new blocks of code(those that have not been documented yet) should have comments explaining the purpose of the code.
+
 **Commits**
 Always use concise, clear, and descriptive commit messages in English.
 
