@@ -1,22 +1,29 @@
-export interface ChecklistItem {
-  id: string;
-  task: string;
-  completed: boolean;
-}
-
 export interface Companion {
   name: string;
   avatarUrl?: string;
 }
 
+export interface Family {
+  id: string;
+  name: string;
+  address: string;
+  avatarUrl?: string;
+  notes: string;
+  visited: boolean;
+  checklist: {
+    scriptures: boolean;
+    prayer: boolean;
+    homeEvening: boolean;
+    temple: boolean;
+  };
+}
+
 export interface Partnership {
   id: string;
   companions: Companion[];
-  assignedFamilies: string[];
+  assignedFamilies: Family[];
   zone: string;
   progress: number;
-  notes: string;
-  checklist: ChecklistItem[];
 }
 
 export const mockPartnerships: Partnership[] = [
@@ -26,14 +33,26 @@ export const mockPartnerships: Partnership[] = [
       { name: 'John Doe' },
       { name: 'Peter Smith' }
     ],
-    assignedFamilies: ['Gonzalez Family', 'Perez Family'],
+    assignedFamilies: [
+      {
+        id: 'f1',
+        name: 'Gonzalez Family',
+        address: '123 Main St, Apt 4B',
+        notes: 'Need to focus on the Gonzalez family this month.',
+        visited: true,
+        checklist: { scriptures: true, prayer: true, homeEvening: false, temple: false }
+      },
+      {
+        id: 'f2',
+        name: 'Perez Family',
+        address: '456 Oak Avenue',
+        notes: 'They asked for help with transportation next Sunday.',
+        visited: false,
+        checklist: { scriptures: false, prayer: false, homeEvening: false, temple: false }
+      }
+    ],
     zone: 'Zona Norte',
-    progress: 50,
-    notes: 'Need to focus on the Gonzalez family this month.',
-    checklist: [
-      { id: 'c1', task: 'First visit completed', completed: true },
-      { id: 'c2', task: 'Follow-up call', completed: false }
-    ]
+    progress: 50
   },
   {
     id: 'p2',
@@ -41,13 +60,18 @@ export const mockPartnerships: Partnership[] = [
       { name: 'Alan Walker' },
       { name: 'Steve Brown' }
     ],
-    assignedFamilies: ['Martinez Family'],
+    assignedFamilies: [
+      {
+        id: 'f3',
+        name: 'Martinez Family',
+        address: '789 Pine Road',
+        notes: 'All good. Very active in the ward.',
+        visited: true,
+        checklist: { scriptures: true, prayer: true, homeEvening: true, temple: true }
+      }
+    ],
     zone: 'Zona Sur',
-    progress: 100,
-    notes: 'All good.',
-    checklist: [
-      { id: 'c3', task: 'First visit completed', completed: true }
-    ]
+    progress: 100
   },
   {
     id: 'p3',
@@ -55,13 +79,25 @@ export const mockPartnerships: Partnership[] = [
       { name: 'David Lee' },
       { name: 'James Wilson' }
     ],
-    assignedFamilies: ['Davis Family', 'Miller Family'],
+    assignedFamilies: [
+      {
+        id: 'f4',
+        name: 'Davis Family',
+        address: '321 Elm Street',
+        notes: 'Just moved in.',
+        visited: false,
+        checklist: { scriptures: false, prayer: false, homeEvening: false, temple: false }
+      },
+      {
+        id: 'f5',
+        name: 'Miller Family',
+        address: '654 Maple Drive',
+        notes: '',
+        visited: false,
+        checklist: { scriptures: false, prayer: false, homeEvening: false, temple: false }
+      }
+    ],
     zone: 'Zona Este',
-    progress: 0,
-    notes: '',
-    checklist: [
-      { id: 'c4', task: 'Schedule visit', completed: false },
-      { id: 'c5', task: 'First visit completed', completed: false }
-    ]
+    progress: 0
   }
 ];

@@ -13,10 +13,10 @@
 - [x] 2.5 Increase the bottom padding/margin (pb-24) on the list container to prevent the floating menu from hiding the last card. Verify scroll bounds.
 
 ## 3. Partnership Detail Checklist Fixes
-- [ ] 3.1 Update the mock data checklist array for families to use the specific 4 boolean items (Lectura de Escrituras, Oración, Noche de Hogar, Asistencia al Templo).
-- [ ] 3.2 Update PartnershipDetail to display the family avatar, name, and address at the top. Verify layout.
-- [ ] 3.3 Update PartnershipDetail to render the 4 specific checklist items and the family notes section. Verify checklist interaction.
-- [ ] 3.4 Add extra bottom margin above the sticky "Save" button. Verify spacing visually.
+- [x] 3.1 Update the mock data checklist array for families to use the specific 4 boolean items (Lectura de Escrituras, Oración, Noche de Hogar, Asistencia al Templo).
+- [x] 3.2 Update PartnershipDetail to display the family avatar, name, and address at the top. Verify layout.
+- [x] 3.3 Update PartnershipDetail to render the 4 specific checklist items and the family notes section. Verify checklist interaction.
+- [x] 3.4 Add extra bottom margin above the sticky "Save" button. Verify spacing visually.
 
 ## 4. Formation View Fixes
 - [ ] 4.1 Update FormationView component to enforce a mobile-only layout container. Verify it renders cleanly on mobile viewports.
