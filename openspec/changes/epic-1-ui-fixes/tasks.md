@@ -19,4 +19,4 @@
 - [x] 3.4 Add extra bottom margin above the sticky "Save" button. Verify spacing visually.
 
 ## 4. Formation View Fixes
-- [ ] 4.1 Update FormationView component to enforce a mobile-only layout container. Verify it renders cleanly on mobile viewports.
+- [x] 4.1 Update FormationView component to enforce a mobile-only layout container. Verify it renders cleanly on mobile viewports.
