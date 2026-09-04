@@ -16,7 +16,7 @@ export function BaseLayout() {
     return '';
   };
 
-  const showBackButton = location.pathname.startsWith('/partnership/');
+  const showBackButton = location.pathname.startsWith('/partnership/') || location.pathname.startsWith('/formation');
 
   return (
     <div className="min-h-screen bg-[#F3F2EB] flex flex-col">
